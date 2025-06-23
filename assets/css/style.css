@@ -59,6 +59,56 @@ header nav li a::before {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  header {
+    overflow: hidden;
+    font-size: 2rem;
+    color: white;
+    padding: 0;
+  }
+
+  header > div {
+    float: left;
+  }
+
+  header > div img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 240px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 4%;
+  }
+
+  header > div p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  header > nav {
+    float: right;
+  }
+
+  header > nav ul {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 40px;
+    margin-top: 10%;
+  }
+
+  header > nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  header > nav li a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 /* MAIN */
 main {
   background-color: #fff;
@@ -133,6 +183,29 @@ iframe {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  body {
+    line-height: 2em;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 50px;
+  }
+
+  iframe,
+  section {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    height: 300px;
+  }
+  .blocco {
+    text-align: center;
+  }
+}
+
 /* TABELLE */
 table {
   margin-bottom: 2em;
@@ -169,6 +242,12 @@ tbody tr:last-of-type {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  table {
+    width: 70%;
+  }
+}
+
 /* FORM */
 input {
   padding: 5px;
@@ -202,6 +281,16 @@ aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
   text-align: right;
+}
+@media screen and (min-width: 1200px) {
+  aside div {
+    display: inline-block;
+    width: 33%;
+  }
+  aside h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
 }
 
 /* FOOTER */
