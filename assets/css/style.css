@@ -330,3 +330,16 @@ footer a {
     width: 20%;
   }
 }
+
+@media print {
+  main {
+    font-size: 1.6em;
+  }
+  header,
+  section,
+  iframe,
+  aside,
+  footer {
+    display: none;
+  }
+}
